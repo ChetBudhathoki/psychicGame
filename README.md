@@ -1,13 +1,14 @@
 # psychicGame
 Psychic Game Assignment
 
-computer randomly chooses letter
-computer stores the letter
-user presses a key
-if user key matches computer letter, user wins
-if user key does not match computer letter, user loses a chance
-we need to set number of user chances
-if user runs out of chances, user loses
+Computer randomly chooses letter
+Computer stores the letter
+User presses a key at a time
+If user key matches computer letter, user wins
+If user key does not match with computer letter, user chance decriment
+Set number of user chances
+When user runs out of chances, user loses
+Game will reset
 
 VARIABLES
 * letters that user can pick/type
@@ -19,16 +20,17 @@ VARIABLES
 
 FUNCTIONS
 * generate computer guess (random letter)
-  * pick from letters the user can pick
+* pick from letters that user can pick
 * onkeyup function
 * check user guess
-  * user key vs computer guess
+  * compare user guess vs computer choice
   * if/else statement
 
 * "win scenario"
   * user guess === computer guess
   * increase win count
   * display the win
+  * reset the game
 
 * user doesn't guess correctly
   * user guess !== computer guess
@@ -37,6 +39,7 @@ FUNCTIONS
 * "lose scenario"
   * chances = 0
   * display the loss
+  * reset the game
   
 * reset the game
   * reset the chances
