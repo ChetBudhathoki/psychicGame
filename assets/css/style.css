@@ -1,0 +1,23 @@
+
+#game {
+    width: 50%;
+    line-height: 35px;
+    margin: 0 auto;
+    border: solid 2px black;
+    border-radius: 5%;
+    padding: 20px;
+}
+
+
+h1, p {
+	margin-bottom: 20px;
+}
+
+h1{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: 700;
+    font-size: 30px;
+	line-height: 50px;
+	border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+}
